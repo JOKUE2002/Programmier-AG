@@ -20,22 +20,22 @@ public class Shop {
 			temp = Preis_B_2;
 		}
 		if(Name == "R" && lvl == 1){
-			temp = Preis_B_2;
+			temp = Preis_R_1;
 		}
 		if(Name == "R" && lvl == 2){
-			temp = Preis_B_2;
+			temp = Preis_R_2;
 		}
 		if(Name == "R" && lvl == 3){
-			temp = Preis_B_2;
+			temp = Preis_R_3;
 		}
 		if(Name == "S" && lvl == 1){
-			temp = Preis_B_2;
+			temp = Preis_S_1;
 		}
 		if(Name == "S" && lvl == 2){
-			temp = Preis_B_2;
+			temp = Preis_S_2;
 		}
 		if(Name == "S" && lvl == 3){
-			temp = Preis_B_2;
+			temp = Preis_S_3;
 		}
 
 		return temp;
