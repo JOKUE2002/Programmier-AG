@@ -81,7 +81,7 @@ public class Hauptmenu extends JFrame implements ActionListener{
 			}
 		}
 		if(e.getSource() == credi){
-			JOptionPane.showMessageDialog(null,"TextAdventure\nEin Spiel der ProgrammierAG des Alstergymnasiums H.-U.\nMusik ausgewählt von Jan Stegemann\nMatrizen von David Kowalk\nMaps von Tim Wolf und Jonas Matenia\nProgrammierung von Jonas Kühn\nLayout von Kevin Altenburg\nIdee von Hr. & Fr. Stichel", "CREDITS",JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null,"TextAdventure\nEin Spiel der ProgrammierAG des Alstergymnasiums H.-U.\nMusik ausgewÃ¤hlt von Jan Stegemann\nMaps von Tim Wolf und Jonas Matenia\nProgrammierung von Jonas KÃ¼hn\nLayout von Kevin Altenburg\nIdee von Hr. & Fr. Stichel", "CREDITS",JOptionPane.INFORMATION_MESSAGE);
 		}
 		if(e.getSource() == musik){
 			int goon = JOptionPane.showConfirmDialog(null, "Wollen Sie Musik?", "Einstellungen", JOptionPane.YES_NO_OPTION);
